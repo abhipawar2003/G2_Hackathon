@@ -17,7 +17,10 @@ import necessary libraries. requests is used to fetch HTML content from URLs, Be
 A function scrape_product_descriptions that takes a list of URLs as input and initializes an empty dictionary descriptions to store the scraped product descriptions.</br>
 loop iterates over each URL in the list urls. It tries to fetch the HTML content of each URL using the requests.get method, specifying a user agent in the headers to mimic a web browser. Then, it parses the HTML content using BeautifulSoup and stores it in the soup variable.</br>
 Later, attempts to find the product description using the Open Graph meta tag (og:description). If found, it extracts the content of the tag and stores it in the descriptions dictionary.</br>
-If the meta tag is not found, it tries to extract the description from other HTML elements, such as <p> tags. If a description is found, it is stored in the descriptions dictionary. If not, a default message is stored indicating that the description was not found.</br>
+If the meta tag is not found, it tries to extract the description from other HTML elements, such as tags. If a description is found, it is stored in the descriptions dictionary. If not, a default message is stored indicating that the description was not found.</br>
 catches any exceptions that occur during the scraping process, prints an error message indicating which URL caused the error, and stores an error message in the descriptions dictionary for that URL.</br>
 Finally, the function returns the dictionary containing the scraped product descriptions.</br>
 Finally the scraped details will be stored in the csv file. A csv file will be generated and stored.
+
+<img width="980" alt="Screenshot 2024-04-12 at 2 19 35 PM" src="https://github.com/abhipawar2003/G2_Hackathon/assets/112234264/5aa080f4-3b38-4195-9009-9d597a218cee">
+

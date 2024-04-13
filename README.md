@@ -9,6 +9,12 @@ Proposed Solution:</br>
 The proposed solution involves developing a robust system that can automate the process of updating product descriptions on the G2 website. This system will leverage web scraping techniques to extract relevant information from product pages and text summarization algorithms to generate brief descriptions. Additionally, data cleaning and normalization techniques will be employed to ensure the accuracy and consistency of the extracted data. The system will adhere to legal and ethical guidelines regarding web scraping and data privacy, and measures will be implemented to optimize scalability and performance.
 
 To run the file we need few libraries to be installed.
+</br></br>
+before this creare an virtual python environment. the python environment helps to run the files smoother and easier way.</br>
+pip install vitualenv</br>
+virtenv myenv</br>
+
+
 </br>
 pip install -r requirements.txt
 
